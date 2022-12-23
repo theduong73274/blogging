@@ -7,6 +7,7 @@ import { GlobalStyles } from "./styles/GlobalStyles";
 import { theme } from "./utils/constants";
 
 import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 const container = document.getElementById("root");
 const root = createRoot(container);
 
@@ -14,7 +15,9 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles></GlobalStyles>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>
 );

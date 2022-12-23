@@ -1,8 +1,8 @@
-<!--
-1. Cài đặt Project Boilerplate Monkey Blogging
-2. Thiết lập Firebase
-3. Thiết lập Routes
-4. Viết auth-context để lưu trữ thông tin User
+<!-- 1. Cài đặt Project Boilerplate Monkey Blogging -->
+<!-- 2. Thiết lập Firebase -->
+<!-- 3. Thiết lập Routes -->
+<!-- 4. Viết auth-context để lưu trữ thông tin User -->
+
 5. Code trang SignUp - UI
 6. Code trang SignUp - React hook form
 7. Code trang SignUp - Authentication với Firebase
@@ -23,7 +23,6 @@
 22. Update auth information
 23. Optimize source code(PropTypes, logic, error boundary, routes, UI UX...)
 24. Congratulations 🎉
--->
 
 <!-- Challenges
 - Update profile
